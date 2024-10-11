@@ -88,7 +88,7 @@ Install the necessary frontend dependencies:
 Run the following command to start the frontend application:
 
 * npm start
-* 
+  
 The frontend application will be accessible at http://localhost:3000. It will interact with the backend API running at http://localhost:3000/todos.
 
 
