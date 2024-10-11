@@ -25,16 +25,22 @@ Welcome to the To-Do App! This is a full-stack application designed to help you 
 ## Technologies
 
 ### Frontend
-* React: A JavaScript library for building user interfaces. The frontend consists of two main components:
+#### React: 
+A JavaScript library for building user interfaces. The frontend consists of two main components:
   1. CreateTodo: This component contains input fields for the title and description of a To-Do item. Users can submit their new tasks through this component.
   2. Todos: This component fetches and displays the list of existing To-Do items, providing an overview of all tasks.
-* Axios (or Fetch API): These libraries are used to handle HTTP requests from the frontend to the backend.
+#### Axios (or Fetch API):
+These libraries are used to handle HTTP requests from the frontend to the backend.
 
 ### Backend
-* Express.js: A web application framework for Node.js, used to build the server-side logic of the application.
-* Zod: A TypeScript-first schema declaration and validation library. Zod is used to ensure that incoming data for creating and updating To-Do items adheres to the expected structure.
-* Mongoose: An ODM (Object Data Modeling) library for MongoDB and Node.js, which provides a straightforward way to model application data.
-* MongoDB: A NoSQL database that stores the To-Do items in a flexible, JSON-like format.
+#### Express:
+A web application framework for Node.js, used to build the server-side logic of the application.
+#### Zod:
+A TypeScript-first schema declaration and validation library. Zod is used to ensure that incoming data for creating and updating To-Do items adheres to the expected structure.
+#### Mongoose:
+An ODM (Object Data Modeling) library for MongoDB and Node.js, which provides a straightforward way to model application data.
+#### MongoDB:
+A NoSQL database that stores the To-Do items in a flexible, JSON-like format.
 
 
 ## Getting Started
