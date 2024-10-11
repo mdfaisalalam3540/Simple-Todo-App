@@ -16,7 +16,7 @@ Welcome to the To-Do App! This is a full-stack application designed to help you 
 
 ## Features
 
-* Create To-Do Items: Users can input a title and description to create new tasks.
+* Create T0-Do Items: Users can input a title and description to create new tasks.
 * Display To-Do List: The application renders a list of all created To-Do items.
 * Input Validation: Zod is used to validate user input, ensuring that all data sent to the backend is correctly formatted.
 * Persistent Storage: MongoDB is used to store To-Do items, allowing users to access their tasks even after refreshing the page.
@@ -48,16 +48,18 @@ To run this application, you need to have the following software installed:
 1. Clone the Repository:
 
 Open your terminal and run the following command to clone the repository:
-git clone <repository-url>
-cd todo-app
-Replace <repository-url> with the actual URL of your Git repository.
+
+* git clone <repository-url>
+* cd todo-app
+* Replace <repository-url> with the actual URL of your Git repository.
 
 2. Set Up the Backend:
 
 Navigate to the backend folder:
-cd backend
-Install the necessary dependencies by running:
-npm install
+
+* cd backend
+* Install the necessary dependencies by running:
+* npm install
 
 3. Configure MongoDB:
 
@@ -66,20 +68,27 @@ Ensure that your MongoDB database is running. If you're using a local MongoDB in
 4. Start the Backend Server:
 
 Run the following command to start the backend server:
-npm start
+
+* npm start
+  
 The backend server will be accessible at http://localhost:3000.
 
 5. Set Up the Frontend:
 
 Navigate back to the root directory of the project and then into the frontend folder:
-cd ../frontend
+
+* cd ../frontend
+  
 Install the necessary frontend dependencies:
-npm install
+
+* npm install
 
 6. Start the Frontend Application:
 
 Run the following command to start the frontend application:
-npm start
+
+* npm start
+* 
 The frontend application will be accessible at http://localhost:3000. It will interact with the backend API running at http://localhost:3000/todos.
 
 
